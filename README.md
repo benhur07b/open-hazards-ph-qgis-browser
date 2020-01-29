@@ -4,9 +4,12 @@
 It is inspired by Klas Karlsson's ([@klakar](https://github.com/klakar)) [qgis_basemaps.py](https://github.com/klakar/QGIS_resources/blob/master/collections/Geosupportsystem/python/qgis_basemaps.py) script.
 
 ## HOW-TO
-### Open the QGIS Python Console (CTRL + ALT + P)
-### Click Show Editor (the icon that looks like a notepad with a pen)
+### Open the QGIS Python Console ![Python Console](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/py.png) (CTRL + ALT + P)
+### Click Show Editor  ![Show Editor](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/ed.png) (the icon that looks like a notepad with a pen)
 ### Copy the code below (or the content of open_hazards_ph_qgis_browser.py) in the editor
+![Copy code to Editor](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/ohphqb-py.png)
+
+
 ```python
 """
 This script should be run from the Python Console inside QGIS (CTRL + ALT + P).
@@ -18,13 +21,7 @@ Each source should contain a list with the following items (string type):
 You can add or remove sources from the sources section of the code.
 
 Script by Ben Hur Pintor
-
 License: GPLv3
-
-Regarding the terms of use for these background maps YOU will need to verify that you
-follow the individual EULA that comes with the different services,
-Most likely they will restrict how you can use the data.
-
 """
 
 # Add sources
@@ -51,7 +48,14 @@ for source in sources:
 
 # Update GUI
 iface.reloadConnections()
+
 ```
+
+### Run
+![Run](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/run.png)
+
+### The connections should now be added in the Browser. If not, refresh the Browser.
+![Run](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/browser.png)
 
 ----
 ### If you want to load the data from open-hazards-ph, check put Open Hazards PH QGIS Plugin
