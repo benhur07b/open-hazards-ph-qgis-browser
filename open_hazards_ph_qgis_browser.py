@@ -8,13 +8,7 @@ Each source should contain a list with the following items (string type):
 You can add or remove sources from the sources section of the code.
 
 Script by Ben Hur Pintor
-
 License: GPLv3
-
-Regarding the terms of use for these background maps YOU will need to verify that you
-follow the individual EULA that comes with the different services,
-Most likely they will restrict how you can use the data.
-
 """
 
 # Add sources
