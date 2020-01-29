@@ -2,7 +2,6 @@
 title: Open Hazards PH QGIS Browser
 description: Open Hazards PH QGIS Browser is a Python script that you can run in QGIS that lets you add geospatial hazard data created by various agencies in the Philippines as connections in the QGIS Browser.
 ---
-
 # Open Hazards PH QGIS Browser
 **Open Hazards PH QGIS Browser** is a Python script that you can run in QGIS that lets you add geospatial hazard data created by various agencies in the Philippines as connections in the QGIS Browser. It currently adds WMTS from [https://github.com/maning/open-hazards-ph](https://github.com/maning/open-hazards-ph).
 
@@ -89,3 +88,13 @@ Yes! Please open a ticket on the [open-hazards-ph repo](https://github.com/manin
 ### The open-hazards-ph repo is maintained by:
 * Maning Sambale [[@maning](https://github.com/maning)]
 * RK Aranas [[@rukku](https://github.com/rukku)]
+
+---
+<div style='padding: 12px'>
+    <p class='small'>
+    <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'><img class='mb-2' alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/80x15.png' /></a>
+    <br/>
+    This work and its contents by <a xmlns:cc='http://creativecommons.org/ns#' href='https://bnhr.xyz' property='cc:attributionName' rel='cc:attributionURL'>Ben Hur S. Pintor</a> is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>
+    Other works (software, source code, etc.) referenced in this website are under their own respective licenses.<br>
+    </p>
+</div>
