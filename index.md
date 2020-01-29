@@ -21,13 +21,7 @@ Each source should contain a list with the following items (string type):
 You can add or remove sources from the sources section of the code.
 
 Script by Ben Hur Pintor
-
 License: GPLv3
-
-Regarding the terms of use for these background maps YOU will need to verify that you
-follow the individual EULA that comes with the different services,
-Most likely they will restrict how you can use the data.
-
 """
 
 # Add sources
@@ -54,6 +48,7 @@ for source in sources:
 
 # Update GUI
 iface.reloadConnections()
+
 ```
 
 ### Run
@@ -61,6 +56,7 @@ iface.reloadConnections()
 
 ### The connections should now be added in the Browser. If not, refresh the Browser.
 ![Run](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/browser.png)
+
 ----
 ### If you want to load the data from open-hazards-ph, check put Open Hazards PH QGIS Plugin
 * [Open Hazards PH QGIS Plugin](https://github.com/benhur07b/open-hazards-ph-qgis)
