@@ -7,7 +7,6 @@ It is inspired by Klas Karlsson's ([@klakar](https://github.com/klakar)) [qgis_b
 ### Open the QGIS Python Console ![Python Console](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/py.png) (CTRL + ALT + P)
 ### Click Show Editor  ![Show Editor](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/ed.png) (the icon that looks like a notepad with a pen)
 ### Copy the code below (or the content of open_hazards_ph_qgis_browser.py) in the editor
-![Copy code to Editor](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/ohphqb-py.png)
 
 
 ```python
@@ -50,6 +49,9 @@ for source in sources:
 iface.reloadConnections()
 
 ```
+
+![Copy code to Editor](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/ohphqb-py.png)
+
 
 ### Run
 ![Run](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis-browser/gh-pages/static/images/run.png)
